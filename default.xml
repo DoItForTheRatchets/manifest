@@ -10,7 +10,7 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <project path="build" name="DoItForTheRatches/nougat_build" remote="github" revision="nougat" groups="pdk,tradefed" />
+  <project path="build" name="DoItForTheRatches/nougat_build" remote="github" revision="nougat" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
