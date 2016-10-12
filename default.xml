@@ -10,7 +10,7 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <project path="build" name="DoItForTheRatches/nougat_build" remote="github" revision="nougat" groups="pdk,tradefed" >
+  <project path="build" name="DoItForTheRatchets/nougat_build" remote="github" revision="nougat" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -55,7 +55,7 @@
   <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" remote="aosp" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" remote="aosp" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" remote="aosp" />
-  <project path="device/huawei/angler" name="DoItForTheRatches/device_huawei_angler" remote="github" revision="nougat" groups="device,angler,broadcom_pdk" />
+  <project path="device/huawei/angler" name="DoItForTheRatchets/device_huawei_angler" remote="github" revision="nougat" groups="device,angler,broadcom_pdk" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" remote="aosp" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device" remote="aosp" />
   <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" remote="aosp" />
